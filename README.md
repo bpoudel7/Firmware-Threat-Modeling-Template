@@ -20,11 +20,11 @@ Process can be a firmware module like firmware update module, or internal key ma
 | | | |
 | **Running with** | Kernel Privilege | Process is running in Kernel Mode |
 |                  | Standard User with Elevation of Privilege | Process is running in user mode with a valid elevation of privilege |
-|                  | Standard User without Elevation fo Privilege | Process is running in user mode |
+|                  | Standard User without Elevation fo Privilege | Process is running in strict user mode |
 | | | |
 | **Isolation Level** | Has Separate Runtime Context | The process has its own runtime context i.e., stack, heap, registers, code section, and data section |
 |                     | Has Separate Stack and Heap Memory | The process has a dedicated stack and heap memory |
-|                     | Runs in Secure Enclave or is part of TEE | The process runs as a part of secure enclave or is part of trusted execution environment |
+|                     | Runs in Secure Enclave or is a part of TEE | The process runs as a part of secure enclave or is a part of the trusted execution environment |
 |                     | Shares Runtime Context | The process shares its runtime context with other processes |
 | | | |
 | **Accepts Input from** | External User or Entity | Process accepts input from host application or some other form of interaction with external user |
@@ -48,7 +48,7 @@ Process can be a firmware module like firmware update module, or internal key ma
 |                      | No | Process does not perform any form of entity authentication before communicating with another process |
 |                      | Not Applicable |
 | | | |
-| **Implements or Uses an Authorization Mechanism** | Yes | Process perform some form of access control list check. Authorization can be achived by implementing some form of access control mechanism or a ticket or a token based system. |
+| **Implements or Uses an Authorization Mechanism** | Yes | Process perform some form of access control list check. Authorization can be achived by implementing access control mechanism or a ticket or a token based system |
 |                      | No | Process does not perform any form of entity authorization before communicating with another process |
 |                      | Not Applicable |
 | | | |
