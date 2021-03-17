@@ -8,9 +8,9 @@ Process can be a firmware module like firmware update module, or internal key ma
 ### Attributes of a Process
 | Attribute Name | Values | Description|
 | :--------------| :------| :----------|
-| **Code Type**  | Third Party Library | The API or module belongs to a third party library |
-|                | Open Source Library | The API or module belongs to an open source library |
-|                | Home Grown | The API or module is developed by your organization |
+| **Code Type**  | Third Party Code | The API or module belongs to a third party library |
+|                | Open Source Code | The API or module belongs to an open source library |
+|                | Home Grown Code | The API or module is developed by your organization |
 |                | Crypto Code | The API or module performs cryptographic operations like AES encryption, SHA3-256 Hashing, etc. |
 |                | Key Management Code | The API or module performs internal key management in the device |
 |                | User Credential Handling Code | The API or module takes user credential as input and perform computation on that data |
