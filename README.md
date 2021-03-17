@@ -34,7 +34,7 @@ Process can be a firmware module like firmware update module, or internal key ma
 |                        | Debug Port | Process accepts inputs from debug port like JTAG or UART |
 |                        | Interrupt Source | Process accepts interrupt from hardware or software interrupt source |
 |                        | Hardware Power Event | Process is affected by change in state of hardware power event like platform reset or platform powercycle |
-|                        | Not Applicable | The process does not take input from  |
+|                        | Not Applicable | The process does not take input  |
 | | | |
 | **Sanitizes Input** | Yes | Process perform some form of input validation before consuming the input data |
 |                     | No | Process consumes the input data without any input validation |
@@ -46,7 +46,7 @@ Process can be a firmware module like firmware update module, or internal key ma
 | | | |
 | **Implements or Uses an Authentication Mechanism** | Yes | Process perform some form of output validation before returning the output data. Entity authentication can be a very basic operation like checking module ID or checking possession of some kind of token or checking password. More, authentication can involve challenge-response protocol based interaction or ZKP based interaction or digital certificates (or certificate chain) verification |
 |                      | No | Process does not perform any form of entity authentication before communicating with another process |
-|                      | Not Applicable |
+|                      | Not Applicable | 
 | | | |
 | **Implements or Uses an Authorization Mechanism** | Yes | Process perform some form of access control list check. Authorization can be achived by implementing access control mechanism or a ticket or a token based system |
 |                      | No | Process does not perform any form of entity authorization before communicating with another process |
