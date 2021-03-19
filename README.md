@@ -84,7 +84,7 @@ Process can be a firmware module like a firmware update module, or an internal k
 |                      | Not Applicable |
 
 ## Modeling Storage
-A firmware code running in a typical microcontroller uses a varieties of memory. A process running in a typical microcontroller uses stack memory section, heap memory section, various level of instruction and data cache, DRAM memory, flash memory, etc.
+A firmware code running in a typical microcontroller uses a varieties of memories. A process running in a typical microcontroller uses stack memory section, heap memory section, various level of instruction and data cache, DRAM memory, flash memory, etc.
 
 ### Attributes of Data Storage
 
