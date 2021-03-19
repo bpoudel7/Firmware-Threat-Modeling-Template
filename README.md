@@ -7,7 +7,7 @@ This repo includes templates that can be used while performing threat modeling u
 MS-TMT uses concept of Process to model a piece of code that perform one specific function. This templates follows the same trend. The firmware APIs or modules are modeled as Process.
 
 ### Process
-Process can be a firmware module like firmware update module, or internal key management module, or interrupt handling module, protocol parser module, or an API that performs a very specific function.
+Process can be a firmware module like a firmware update module, or an internal key management module, or an interrupt handling module, a protocol parser module, or an API that performs a very specific function.
 
 #### Attributes of a Process
 
