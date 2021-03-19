@@ -132,12 +132,10 @@ A firmware code running in a typical microcontroller uses a varieties of memorie
 |               | Yes | The data in the memory is encrypted | |
 |               | Not Applicable |  |
 | | | |
-
 | **Encrypted using Authenticated Encryption** | No | The data in memory is not encrypted using authenticated encryption scheme |
 |                                              | Yes | The data in memory is encrypted using authenticated encryption scheme |
 |                                              | Not Applicable |  |
 | | | |
-
 | **Signed** | No | The data in memory does not have digital signature to verify its authenticity |
 |            | Yes | The data in memory have digital signature to verify its authenticity |
 |            | Not Applicable |  |
@@ -150,7 +148,6 @@ A firmware code running in a typical microcontroller uses a varieties of memorie
 |                      | Yes | The memory can be read and written to |
 |                      | Not Applicable |  |
 | | | |
-
 | **Backup** | No | The memory does not hold back up data |
 |            | Yes | The memory content is a back up copy of some data |
 |            | Not Applicable |  |
