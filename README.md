@@ -1,7 +1,7 @@
 # Firmware Threat Modeling Template
 This repo includes templates that can be used while performing threat modeling using Microsoft Threat Modeling Tool. These templates are helpful if you are looking for a more firmware or hardware centric threat modeling using Microsoft Threat Modeling Tool (https://www.microsoft.com/en-us/securityengineering/sdl/threatmodeling).
 
-# Entities or Elements of Threat Model
+# Entities or Elements of a Firmware Threat Model
 
 ## Modeling an API or Firmware Module
 MS-TMT uses concept of Process to model a piece of code that perform one specific function. This templates follows the same trend. The firmware APIs or modules are modeled as Process.
