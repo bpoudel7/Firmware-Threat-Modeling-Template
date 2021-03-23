@@ -172,3 +172,26 @@ A firmware code running in a typical microcontroller uses a varieties of memorie
 |                        | Yes | This memory stores credential data |
 |                        | Not Applicable |  |
 | | | |
+
+## Modeling Data Flow or Communication
+The data flow between two APIs in an IoT firmware written in C/C++ happens in one of two ways, pass by value or pass by reference. In pass by value, data buffer is used to send message from caller to callee. In pass by reference, a memory location is used to pass value in both the directions. Besides these two methods there are other communication interfaces through which a firmware interacts with hardware or external entities like GPIO, Interrupt, Debug Port, various serial buses like SPI, CAN, I2C, etc.
+
+### Properties
+
+| Attribute Name | Values | Description|
+| :--------------| :------| :----------|
+| **Medium**     | Data Buffer |  |
+|                | Memory Reference |  |
+|                | GPIO | |
+|                | Interrupt | |
+|                | Binary | |
+|                | JTAG Payload | |
+|                | UART Payload | |
+|                | SPI Payload | |
+|                | NVMe Payload | |
+|                | NVMe MI Payload | |
+|                | Request Signal | |
+| | | |
+| **Source Authenticated** | Not Applicable | |
+| | No | |
+| | Yes | |
